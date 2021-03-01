@@ -1,86 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Lazzat</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header>
-
-        <h1>Lazzat</h1>
-        <p>eng zo'r toomlar eng oson usulda</p>
-
+    <header> 
+        <h1 class="company-name">Lazzat</h1>
+        <p class="slogan">eng zo'r taomlar eng oson usulda</p>
     </header>
     <nav>
-        <ul>
-            <li><a href="#">bosh saxifa</a></li>
-            <li><a href="#">Taomlar</a></li>
-            <li><a href="#">Salatlar</a></li>
-            <li><a href="#">Desertlar</a></li>
-            <li><a href="#">Ichimliklar</a></li>
-        </ul>
+        <div class="container">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">Bosh sahifa</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Taomlar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Salatlar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Desertlar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Ichimliklar</a></li>
+            </ul>
+        </div>
     </nav>
-    <section class="food">
-        <div class="each-food">
-            <img src="images/food-1.jpg" alt="ovqat">
-            <spam class="orange">Taomlar</spam>
-            <h1>Lorem, ipsum dolor</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero velit, delectus eum ratione nemo
-                animi temporibus...</p>
+   <section class="main">
+    <div class="container">
+        <h1 class="visually-hidden" >Taomlar Ro'yxati</h1>
+        <ul class="recipes-list">
+            <li class="recipe-item">
+                <img src="images/food-1.jpg" alt="recipe-img" class="recipe-img">
+                 <a href="#" class="recipe-category bc-orange">Taomlar</a>
+                 <a href="#" class="recipe-title-link">
+                     <h2 class="recipe-tile">KFC tayorlash retsepti</h2>
+                 </a>
+                 <p class="recipe-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates velit alias sed earum quisquam ipsum?</p>
+         </li>
+            <li class="recipe-item">
+                <img src="images/food-2.jpg" alt="recipe-img" class="recipe-img">
+                 <a href="#" class="recipe-category bc-orange">Taomlar</a>
+                 <a href="#" class="recipe-title-link">
+                     <h2 class="recipe-tile">KFC tayorlash retsepti</h2>
+                 </a>
+                 <p class="recipe-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates velit alias sed earum quisquam ipsum?</p>
+         </li>
+            <li class="recipe-item">
+                <img src="images/food-3.jpg" alt="recipe-img" class="recipe-img">
+                 <a href="#" class="recipe-category bc-light-blue">Ichimliklar</a>
+                 <a href="#" class="recipe-title-link">
+                     <h2 class="recipe-tile">KFC tayorlash retsepti</h2>
+                 </a>
+                 <p class="recipe-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates velit alias sed earum quisquam ipsum?</p>
+         </li>
+            <li class="recipe-item">
+                <img src="images/food-4.jpg" alt="recipe-img" class="recipe-img">
+                 <a href="#" class="recipe-category bc-light-red">Desertlar</a>
+                 <a href="#" class="recipe-title-link">
+                     <h2 class="recipe-tile">KFC tayorlash retsepti</h2>
+                 </a>
+                 <p class="recipe-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates velit alias sed earum quisquam ipsum?</p>
+         </li>
+            <li class="recipe-item">
+                <img src="images/food-5.jpg" alt="recipe-img" class="recipe-img">
+                 <a href="#" class="recipe-category bc-green">Salatlar</a>
+                 <a href="#" class="recipe-title-link">
+                     <h2 class="recipe-tile">KFC tayorlash retsepti</h2>
+                 </a>
+                 <p class="recipe-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates velit alias sed earum quisquam ipsum?</p>
+         </li>
+            <li class="recipe-item">
+                <img src="images/food-6.jpg" alt="recipe-img" class="recipe-img">
+                 <a href="#" class="recipe-category bc-light-red">Desertlar</a>
+                 <a href="#" class="recipe-title-link">
+                     <h2 class="recipe-tile">KFC tayorlash retsepti</h2>
+                 </a>
+                 <p class="recipe-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates velit alias sed earum quisquam ipsum?</p>
+         </li>
+        </ul>
+        <div class="all-recipes">
+            <a href="#" class="all-recipes-link">Barcha retseptlar</a>
         </div>
-        <div class="each-food">
-            <img src="images/food-2.jpg" alt="ovqat">
-            <spam class="orange">Taomlar</spam>
-            <h1>Lorem, ipsum dolor</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero velit, delectus eum ratione nemo
-                animi temporibus...</p>
-        </div>
-        <div class="each-food">
-            <img src="images/food-3.jpg" alt="ovqat">
-            <spam class="light-blue">Ichimliklar</spam>
-            <h1>Lorem, ipsum dolor</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero velit, delectus eum ratione nemo
-                animi temporibus...</p>
-        </div>
-        <div class="each-food">
-            <img src="images/food-4.jpg" alt="ovqat">
-            <spam class="salmon">Desertlar</spam>
-            <h1>Lorem, ipsum dolor</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero velit, delectus eum ratione nemo
-                animi temporibus...</p>
-        </div>
-        <div class="each-food">
-            <img src="images/food-5.jpg" alt="ovqat">
-            <spam class="green">Salatlar</spam>
-            <h1>Lorem, ipsum dolor</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero velit, delectus eum ratione nemo
-                animi temporibus...</p>
-        </div>
-        <div class="each-food">
-            <img src="images/food-6.jpg" alt="ovqat">
-            <spam class="salmon">Desertlar</spam>
-            <h1>Lorem, ipsum dolor</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero velit, delectus eum ratione nemo
-                animi temporibus...</p>
-        </div>
-        <div class="all">
-            <button>Barcha retseptlar</button>
-        </div>
+        
+    </div>
+      
 
-    </section>
-    <section class="subscribe">
-        <form action="">
-            <input type="text" placeholder="Email">
-            <input type="submit" value="Obuna bo'lish">
-        </form>
-        <h1>Haftalik taomnomalarga obuna bo'linglar.</h1>
-    </section>
+   </section>
+   <section class="form">
+       <form action="">
+           <input type="email" class="email-input" placeholder="Email">
+           <input type="submit" class="email-submit" value="Obuna bo'lish">
+       </form>
+       <h1 class="subscribe-text">Haftalik taomnomalarga obuna bo'lish</h1>
+   </section>
 </body>
-
 </html>
